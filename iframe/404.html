@@ -1,0 +1,13 @@
+<style>
+  body {
+    margin: 0px;
+  }
+  iframe {
+    border: 0px;
+  }
+</style>
+<iframe id="player" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script>
+console.log('Video ID: ' + window.location.pathname)
+document.getElementById('player').src = window.location.pathname.slice(7);
+</script>
