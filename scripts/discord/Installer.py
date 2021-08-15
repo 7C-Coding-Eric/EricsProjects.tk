@@ -1,5 +1,5 @@
 import os
-libraries = ["discord.py", "aiohttp", "random", "Datetime"]
+libraries = ["discord.py", "aiohttp", "random", "Datetime", "python-dotenv"]
 os.system("pip install --upgrade pip")
 os.system("pip3 install --upgrade pip")
 for i in range(len(libraries)):
